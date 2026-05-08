@@ -1,0 +1,10 @@
+/function ground_loot:admin/force_spawn — spawn one immediately for testing
+/function ground_loot:admin/status — check timer, daily count, etc.
+/function ground_loot:admin/cleanup — remove all spawned items from the world
+/function ground_loot:admin/reset_day — reset the daily counter and timer
+/scoreboard players set GL_TIMER gl.timer 0  - you can set the current timer to the new value
+/scoreboard players set GL_COUNT gl.daily 0 - you can set the current count to new value
+
+
+/scoreboard players set GL_INTERVAL gl.timer 28800  - on how many ticks it spawns (24 min right now).  It can be changed anytime
+/scoreboard players set GL_LIMIT gl.daily 60 - how many will they be spawning per day (60 maximum right now)
