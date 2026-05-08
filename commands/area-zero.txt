@@ -1,0 +1,10 @@
+AREA ZERO
+-----------------------------------------------------------------
+
+/mw tp minecraft:areazero
+/function areazero:event_open
+/function areazero:give_crystal_reward
+
+-----------------------------------------------------------------
+ULTRA SPACE
+execute as @a at @s run function ultraspace:give_pass  (in console)
